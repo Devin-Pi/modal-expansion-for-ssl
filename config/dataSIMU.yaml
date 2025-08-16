@@ -1,0 +1,33 @@
+DATA_SIMU:
+    TRAIN: False
+    TEST: False
+    DEV: False
+    TRAIN_NUM: 100 #5000
+    TEST_NUM: 100 #2000
+    DEV_NUM: 100 #1000
+    SOU_PATH:
+        TRAIN: /workspaces/00_MEDataGeneration/data/LibriSpeech/train-clean-100
+        TEST: /workspaces/00_MEDataGeneration/data/LibriSpeech/test-clean
+        DEV: /workspaces/00_MEDataGeneration/data/LibriSpeech/dev-clean
+    NOISE_PATH: /workspaces/00_MEDataGeneration/data/NoiSig/Noise92
+    SAVE_PATH:
+        TRAIN: /workspaces/00_MEDataGeneration/data/train
+        TEST: /workspaces/00_MEDataGeneration/data/test
+        DEV: /workspaces/00_MEDataGeneration/data/dev
+TRAJ_POINTS: 50
+MIN_DIST_RANGE: [0.01, 0.1]
+NS: 1
+NS_STATE: fixed #fixed, random
+S_STATE: static #moving static
+ROOM_DIMS_RANGE:
+  - [0.63, 0.38, 0.51]
+  - [0.63, 0.38, 0.51]
+ARRAY_SETUP: planar #linear, circular
+ARRAY_POS_RANGE:
+  - [0.1, 0.1, 0.1]
+  - [0.9, 0.9, 0.9]
+SNR: None
+FMIN: 10
+FMAX: 1000
+DEVICE: 'cuda'
+SPEED: 343.0
