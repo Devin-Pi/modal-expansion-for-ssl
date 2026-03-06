@@ -43,7 +43,13 @@ bash scripts/datasimu.sh
 ## 🎓 Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article{pi2025medataset,
+@article{pi2026modal,
+  title={Modal expansion-based data generation approach for deep learning-enabled sound source localization in a small enclosure},
   author={Pi, Rendong and Yu, Xiang},
+  journal={Applied Acoustics},
+  volume={241},
+  pages={111023},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
